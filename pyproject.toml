@@ -1,0 +1,11 @@
+[project]
+name = "ecommerce-analytics-pipeline"
+version = "0.1.0"
+description = "ETL pipeline using Google BigQuery, Airflow, and dbt"
+authors = [{ name = "Eric Schmidt" }]
+dependencies = [
+    "apache-airflow==2.5.0",
+    "dbt-bigquery",
+    "google-cloud-bigquery"
+]
+requires-python = ">=3.9"
