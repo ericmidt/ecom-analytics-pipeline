@@ -1,0 +1,7 @@
+apache-airflow==2.5.0
+apache-airflow-providers-google
+dbt-bigquery
+google-cloud-bigquery
+google-auth
+pandas
+pyarrow

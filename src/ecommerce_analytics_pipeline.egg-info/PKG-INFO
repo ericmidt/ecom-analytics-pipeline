@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: ecommerce-analytics-pipeline
+Version: 0.1.0
+Summary: ETL pipeline using Google BigQuery, Airflow, and dbt
+Author: Eric Schmidt
+Requires-Python: >=3.9
+Requires-Dist: apache-airflow==2.5.0
+Requires-Dist: apache-airflow-providers-google
+Requires-Dist: dbt-bigquery
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-auth
+Requires-Dist: pandas
+Requires-Dist: pyarrow

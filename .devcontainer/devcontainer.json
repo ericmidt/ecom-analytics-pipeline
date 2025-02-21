@@ -15,8 +15,7 @@
         ]
       }
     },
-    "postCreateCommand": "uv venv .venv && uv install",
-    "remoteUser": "vscode",
+    "postCreateCommand": "uv venv .venv && uv pip install --editable . && uv pip install --requirements requirements.txt",
     "mounts": [
         {
             "type": "bind",
