@@ -1,5 +1,7 @@
 README.md
 pyproject.toml
+src/detect_encoding.py
+src/ingest_data.py
 src/ecommerce_analytics_pipeline.egg-info/PKG-INFO
 src/ecommerce_analytics_pipeline.egg-info/SOURCES.txt
 src/ecommerce_analytics_pipeline.egg-info/dependency_links.txt
